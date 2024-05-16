@@ -4,7 +4,12 @@
 
 <template>
     <div>
-        index
+        <div class="w-1/2">
+            Left
+        </div>
+        <div class="w-1/2">
+            Content
+        </div>
     </div>
 </template>
 
