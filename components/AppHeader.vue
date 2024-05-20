@@ -14,6 +14,7 @@
                         <li><RouterLink to="ubuntu">Ubuntu</RouterLink></li>
                         <li><RouterLink to="rockyLinux">Rocky Linux</RouterLink></li>
                         <li><RouterLink to="nodejs">Node.js</RouterLink></li>
+                        <li><RouterLink to="laravel">Laravel</RouterLink></li>
                     </ul>
                 </div>
                 <RouterLink class="btn btn-ghost text-xl" to="/">Home</RouterLink>
@@ -23,6 +24,7 @@
                     <li><RouterLink to="ubuntu">Ubuntu</RouterLink></li>
                     <li><RouterLink to="rockyLinux">Rocky Linux</RouterLink></li>
                     <li><RouterLink to="nodejs">Node.js</RouterLink></li>
+                    <li><RouterLink to="laravel">Laravel</RouterLink></li>
                 </ul>
             </div>
             <div class="navbar-end">
