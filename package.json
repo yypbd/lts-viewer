@@ -12,6 +12,7 @@
   "dependencies": {
     "chart.js": "^4.4.2",
     "chartjs-adapter-date-fns": "^3.0.0",
+    "chartjs-plugin-annotation": "^3.0.1",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-chartjs": "^5.3.1",

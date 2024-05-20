@@ -40,6 +40,8 @@ export const ubuntuChartData = {
     ]
 }
 
+const today = new Date();
+
 export const ubuntuChartOptions = {
     responsive: true,
     indexAxis: 'y',
@@ -59,6 +61,24 @@ export const ubuntuChartOptions = {
                 }
             },
         },
+        annotation: {
+            annotations: {
+                line1: {
+                    type: 'line',
+                    xMin: today,
+                    xMax: today,
+                    borderColor: 'black',
+                    borderWidth: 2,
+                    label: {
+                        content: 'Today',
+                        enabled: true,
+                        position: 'end',
+                        backgroundColor: 'rgba(255, 0, 0, 0.25)',
+                        color: 'black'
+                    }
+                }
+            }
+        }
     },
     scales: {
         y: {
