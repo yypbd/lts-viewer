@@ -13,6 +13,7 @@
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><RouterLink to="ubuntu">Ubuntu</RouterLink></li>
                         <li><RouterLink to="rockyLinux">Rocky Linux</RouterLink></li>
+                        <li><RouterLink to="nodejs">Node.js</RouterLink></li>
                     </ul>
                 </div>
                 <RouterLink class="btn btn-ghost text-xl" to="/">Home</RouterLink>
@@ -21,6 +22,7 @@
                 <ul class="menu menu-horizontal px-1">
                     <li><RouterLink to="ubuntu">Ubuntu</RouterLink></li>
                     <li><RouterLink to="rockyLinux">Rocky Linux</RouterLink></li>
+                    <li><RouterLink to="nodejs">Node.js</RouterLink></li>
                 </ul>
             </div>
             <div class="navbar-end">

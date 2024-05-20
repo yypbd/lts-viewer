@@ -1,3 +1,5 @@
+// https://ubuntu.com/about/release-cycle
+
 const name = 'Ubuntu'
 
 export const chartData = {
