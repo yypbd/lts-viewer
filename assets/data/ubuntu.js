@@ -1,4 +1,6 @@
-export const ubuntuChartData = {
+const name = 'Ubuntu'
+
+export const chartData = {
     labels: ["24.04", "22.04", "20.04", "18.04", "16.04", "14.04"],
     datasets: [
         {
@@ -38,60 +40,4 @@ export const ubuntuChartData = {
             backgroundColor: "orange",
         },
     ]
-}
-
-const today = new Date();
-
-export const ubuntuChartOptions = {
-    responsive: true,
-    indexAxis: 'y',
-    plugins: {
-        legend: {
-            position: 'bottom',
-        },
-        title: {
-            display: true,
-            text: 'Ubuntu'
-        },
-        tooltip: {
-            callbacks: {
-                label: function (context) {
-                    // console.log(context);
-                    return '[Ubuntu ' + context.label + '] ' + context.raw[0].substring(0, 7) + ' ~ ' + context.raw[1].substring(0, 7);
-                }
-            },
-        },
-        annotation: {
-            annotations: {
-                line1: {
-                    type: 'line',
-                    xMin: today,
-                    xMax: today,
-                    borderColor: 'black',
-                    borderWidth: 2,
-                    label: {
-                        content: 'Today',
-                        enabled: true,
-                        position: 'end',
-                        backgroundColor: 'rgba(255, 0, 0, 0.25)',
-                        color: 'black'
-                    }
-                }
-            }
-        }
-    },
-    scales: {
-        y: {
-            stacked: true,
-        },
-        x: {
-            type: 'time',
-            time: {
-                // Luxon format string
-                tooltipFormat: 'yyyy-MM-dd'
-            },
-            min: new Date('2014-09-11T00:00:00'),
-            max: new Date('2036-09-18T00:00:00')
-        }
-    },
 }
