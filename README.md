@@ -76,3 +76,9 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+
+## TODO
+
+- [ ] css - 규칙별 색상 통일
